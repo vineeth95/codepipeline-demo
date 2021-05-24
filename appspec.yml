@@ -8,6 +8,9 @@ hooks:
   ApplicationStop:
     - location: scripts/stop_application
       timeout: 300
+  BeforeInstall:
+    - location: scripts/echo_beforeinstall
+      timeout: 300    
   ApplicationStart:
     - location: scripts/start_application
       timeout: 300
