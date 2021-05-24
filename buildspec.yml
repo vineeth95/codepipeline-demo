@@ -13,7 +13,6 @@ phases:
     commands:
     - echo Build completed on `date`
     - mvn package
-    - cp target/springboot-first-app-0.0.1-SNAPSHOT.war /opt/codedeploy-agent/deployment-root/
 artifacts:
   files:
   - '**/*'
