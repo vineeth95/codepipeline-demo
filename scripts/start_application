@@ -2,10 +2,10 @@
 
 set -e
 
-CATALINA_HOME='/opt/apache-tomcat-8.5.35/'
+CATALINA_HOME='/opt/apache-tomcat-8.5.35'
 DEPLOY_TO_ROOT='true'
 
-TEMP_STAGING_DIR='/opt/codedeploy-agent/deployment-root/'
+TEMP_STAGING_DIR='/opt/codedeploy-agent/deployment-root'
 WAR_STAGED_LOCATION="$TEMP_STAGING_DIR/app.war"
 
 # In Tomcat, ROOT.war maps to the server root
