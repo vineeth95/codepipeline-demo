@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/app.war
+  - source: /target/springboot-first-app-0.0.1-SNAPSHOT.war
     destination: /opt/codedeploy-agent/deployment-root/
 
 hooks:
