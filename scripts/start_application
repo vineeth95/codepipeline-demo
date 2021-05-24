@@ -6,11 +6,11 @@ CATALINA_HOME='/opt/apache-tomcat-8.5.35'
 DEPLOY_TO_ROOT='true'
 
 TEMP_STAGING_DIR='/opt/codedeploy-agent/deployment-root'
-WAR_STAGED_LOCATION="$TEMP_STAGING_DIR/app.war"
+WAR_STAGED_LOCATION="$TEMP_STAGING_DIR/springboot-first-app.war"
 
 # In Tomcat, ROOT.war maps to the server root
 if [[ "$DEPLOY_TO_ROOT" = 'true' ]]; then
-    CONTEXT_PATH='app'
+    CONTEXT_PATH='springboot-first-app'
 fi
 
 # Remove unpacked application artifacts
