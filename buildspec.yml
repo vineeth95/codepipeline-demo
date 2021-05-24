@@ -13,7 +13,7 @@ phases:
     commands:
     - echo Build completed on `date`
     - mvn package
-    - mv target/app-0.0.1-SNAPSHOT.war app.war
+    - mv target/codepipeline-demo-0.0.1-SNAPSHOT.war app.war
 artifacts:
   files:
   - app.war
