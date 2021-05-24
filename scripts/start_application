@@ -6,7 +6,7 @@ CATALINA_HOME='/opt/apache-tomcat-8.5.35'
 DEPLOY_TO_ROOT='true'
 
 TEMP_STAGING_DIR='/opt/codedeploy-agent/deployment-root'
-WAR_STAGED_LOCATION="$TEMP_STAGING_DIR/springboot-first-app.war"
+WAR_STAGED_LOCATION="$TEMP_STAGING_DIR/springboot-first-app-0.0.1-SNAPSHOT.war"
 
 # In Tomcat, ROOT.war maps to the server root
 if [[ "$DEPLOY_TO_ROOT" = 'true' ]]; then
