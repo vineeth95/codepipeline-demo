@@ -8,6 +8,6 @@ public class WelcomeController {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "welcome to vineeth app";
+		return "welcome to vineeth app - new version 1.1";
 	}
 }
