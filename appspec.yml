@@ -12,14 +12,14 @@ hooks:
     - location: scripts/echo_beforeinstall
       timeout: 300
   Install:
-    - location: scripts/echo_beforeinstall
+    - location: scripts/echo_install
       timeout: 300
   AfterInstall:
-    - location: scripts/echo_beforeinstall
-      timeout: 300         
+    - location: scripts/echo_afterinstall
+      timeout: 300 
   ApplicationStart:
     - location: scripts/start_application
       timeout: 300
   ValidateService:
-    - location: scripts/echo_beforeinstall
-      timeout: 300  
+    - location: scripts/echo_validateservice
+      timeout: 300
